@@ -50,24 +50,6 @@ function Cadastro() {
 						</div>
 						<div className="flex flex-col gap-2">
 							<label
-								htmlFor="foto"
-								className="text-sm font-medium text-slate-700"
-							>
-								Foto (URL){' '}
-								<span className="text-slate-400 font-normal">
-									opcional
-								</span>
-							</label>
-							<input
-								id="foto"
-								name="foto"
-								type="text"
-								className="border border-slate-300 rounded-lg px-4 py-2 text-base text-slate-800 focus:outline-none focus:ring-2 focus:ring-blue-600"
-								placeholder="https://..."
-							/>
-						</div>
-						<div className="flex flex-col gap-2">
-							<label
 								htmlFor="senha"
 								className="text-sm font-medium text-slate-700"
 							>
