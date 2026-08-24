@@ -66,7 +66,6 @@ export default function Oportunidades() {
             </p>
           </div>
 
-
           {/* Em aberto */}
           <div
             className="
@@ -84,7 +83,6 @@ export default function Oportunidades() {
               1
             </p>
           </div>
-
 
           {/* Valor total */}
           <div
@@ -105,7 +103,6 @@ export default function Oportunidades() {
           </div>
 
         </div>
-
 
         {/* Tabela */}
         <div
@@ -154,7 +151,6 @@ export default function Oportunidades() {
 
               </tr>
             </thead>
-
 
             <tbody>
 

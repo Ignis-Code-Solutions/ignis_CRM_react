@@ -10,11 +10,9 @@ function Sobre() {
   return (
     <main className="grow w-full bg-[#080f1d]">
 
-      {/* ================= QUEM SOMOS ================= */}
+      {/* Quem Somos */}
       <section className="w-full bg-[#0b1426]">
-
         <div className="max-w-7xl mx-auto px-4 md:px-8 py-20 md:py-24">
-
           <div className="max-w-3xl mx-auto text-center">
 
             {/* Badge */}
@@ -33,19 +31,13 @@ function Sobre() {
               da Generation Brasil, unindo tecnologia e propósito para
               democratizar o acesso a um CRM de qualidade.
             </p>
-
           </div>
-
         </div>
-
       </section>
 
-
-      {/* ================= MISSÃO / PROPÓSITO / PÚBLICO ================= */}
+      {/* MISSÃO / PROPÓSITO / PÚBLICO */}
       <section className="w-full bg-[#080f1d] border-t border-slate-800">
-
         <div className="max-w-7xl mx-auto px-4 md:px-8 py-12 md:py-14">
-
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
 
             {/* Missão */}
@@ -55,7 +47,6 @@ function Sobre() {
 
               <div className="w-10 h-10 rounded-xl bg-blue-500/10
                 flex items-center justify-center mb-5">
-
                 <TargetIcon
                   size={22}
                   weight="regular"
@@ -63,19 +54,15 @@ function Sobre() {
                 />
 
               </div>
-
               <h3 className="text-white text-base font-semibold mb-3">
                 Missão
               </h3>
-
               <p className="text-sm text-slate-400 leading-6">
                 Simplificar a gestão de relacionamento com clientes para
                 pequenas e médias empresas, oferecendo uma ferramenta
                 acessível, intuitiva e poderosa.
               </p>
-
             </div>
-
 
             {/* Propósito */}
             <div className="rounded-2xl border border-slate-800 bg-[#080f1d] p-6 md:p-7
@@ -84,33 +71,26 @@ function Sobre() {
 
               <div className="w-10 h-10 rounded-xl bg-green-500/10
                 flex items-center justify-center mb-5">
-
                 <HeartIcon
                   size={22}
                   weight="regular"
                   className="text-green-500"
                 />
-
               </div>
-
               <h3 className="text-white text-base font-semibold mb-3">
                 Propósito
               </h3>
-
               <p className="text-sm text-slate-400 leading-6">
                 Ajudar empreendedores a organizarem seus processos
                 comerciais, ganharem tempo e converterem mais oportunidades
                 em vendas reais.
               </p>
-
             </div>
-
 
             {/* Público-alvo */}
             <div className="rounded-2xl border border-slate-800 bg-[#080f1d] p-6 md:p-7
               hover:-translate-y-1 hover:border-yellow-500/30
               transition-all duration-300">
-
               <div className="w-10 h-10 rounded-xl bg-yellow-500/10
                 flex items-center justify-center mb-5">
 
@@ -119,50 +99,35 @@ function Sobre() {
                   weight="regular"
                   className="text-yellow-500"
                 />
-
               </div>
-
               <h3 className="text-white text-base font-semibold mb-3">
                 Público-alvo
               </h3>
-
               <p className="text-sm text-slate-400 leading-6">
                 PMEs brasileiras que precisam de um CRM enxuto, sem
                 complexidade excessiva e com foco em resultados rápidos.
               </p>
-
             </div>
-
           </div>
-
         </div>
-
       </section>
 
-
-      {/* ================= EQUIPE ================= */}
+      {/* Equipe */}
       <section className="w-full bg-[#080f1d] border-t border-slate-800">
 
         <div className="max-w-7xl mx-auto px-4 md:px-8 py-16 md:py-20">
-
-          {/* Título da equipe */}
           <div className="text-center max-w-2xl mx-auto mb-12">
-
             <h2 className="text-3xl md:text-4xl font-bold text-white">
               Equipe de desenvolvimento
             </h2>
-
             <p className="text-sm md:text-base text-slate-400 mt-3 leading-6">
               Um time diverso e comprometido com entrega de valor, boas
               práticas de código e experiência do usuário.
             </p>
-
           </div>
-
 
           {/* Cards */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-
 
             {/* ================= ANDRE ================= */}
             <div className="group flex flex-col items-center text-center
@@ -173,7 +138,6 @@ function Sobre() {
               hover:shadow-lg hover:shadow-blue-500/10
               transition-all duration-300">
 
-              {/* FOTO MAIOR */}
               <div className="w-28 h-28 rounded-full overflow-hidden
                 border-2 border-blue-500/20
                 shadow-lg shadow-blue-500/10
@@ -185,19 +149,14 @@ function Sobre() {
                   alt="Andre Nunes"
                   className="w-full h-full object-cover"
                 />
-
               </div>
-
               <h3 className="text-white font-semibold text-base mt-5">
                 Andre Nunes
               </h3>
-
               <p className="text-blue-400 text-sm mt-1">
                 Fullstack Developer
               </p>
-
               <div className="flex gap-4 mt-5">
-
                 <a
                   className="text-slate-500 hover:text-blue-400 transition-all"
                   href="https://github.com/andrelsrn" target="_blank"
@@ -215,11 +174,8 @@ function Sobre() {
                 >
                   <LinkedinLogoIcon size={20} weight="fill" />
                 </a>
-
               </div>
-
             </div>
-
 
             {/* ================= DANIEL ================= */}
             <div className="group flex flex-col items-center text-center
@@ -241,19 +197,14 @@ function Sobre() {
                   alt="Daniel"
                   className="w-full h-full object-cover"
                 />
-
               </div>
-
               <h3 className="text-white font-semibold text-base mt-5">
                 Daniel
               </h3>
-
               <p className="text-blue-400 text-sm mt-1">
                 Fullstack Developer
               </p>
-
               <div className="flex gap-4 mt-5">
-
                 <a
                   className="text-slate-500 hover:text-blue-400 transition-all"
                   href="https://github.com/DaniChaves10" target="_blank"
@@ -271,11 +222,8 @@ function Sobre() {
                 >
                   <LinkedinLogoIcon size={20} weight="fill" />
                 </a>
-
               </div>
-
             </div>
-
 
             {/* ================= ELAINE ================= */}
             <div className="group flex flex-col items-center text-center
@@ -297,19 +245,14 @@ function Sobre() {
                   alt="Elaine"
                   className="w-full h-full object-cover"
                 />
-
               </div>
-
               <h3 className="text-white font-semibold text-base mt-5">
                 Elaine
               </h3>
-
               <p className="text-blue-400 text-sm mt-1">
                 Fullstack Developer
               </p>
-
               <div className="flex gap-4 mt-5">
-
                 <a
                   className="text-slate-500 hover:text-blue-400 transition-all"
                   href="https://github.com/alveslaine" target="_blank"
@@ -327,11 +270,8 @@ function Sobre() {
                 >
                   <LinkedinLogoIcon size={20} weight="fill" />
                 </a>
-
               </div>
-
             </div>
-
 
             {/* ================= JOÃO ================= */}
             <div className="group flex flex-col items-center text-center
@@ -353,19 +293,14 @@ function Sobre() {
                   alt="João"
                   className="w-full h-full object-cover"
                 />
-
               </div>
-
               <h3 className="text-white font-semibold text-base mt-5">
                 João
               </h3>
-
               <p className="text-blue-400 text-sm mt-1">
                 Fullstack Developer
               </p>
-
               <div className="flex gap-4 mt-5">
-
                 <a
                   className="text-slate-500 hover:text-blue-400 transition-all"
                   href="https://github.com/Joao-Pedro-Duo" target="_blank"
@@ -383,11 +318,8 @@ function Sobre() {
                 >
                   <LinkedinLogoIcon size={20} weight="fill" />
                 </a>
-
               </div>
-
             </div>
-
 
             {/* ================= JONATHAN ================= */}
             <div className="group flex flex-col items-center text-center
@@ -409,19 +341,14 @@ function Sobre() {
                   alt="Jonathan"
                   className="w-full h-full object-cover"
                 />
-
               </div>
-
               <h3 className="text-white font-semibold text-base mt-5">
                 Jonathan
               </h3>
-
               <p className="text-blue-400 text-sm mt-1">
                 Fullstack Developer
               </p>
-
               <div className="flex gap-4 mt-5">
-
                 <a
                   className="text-slate-500 hover:text-blue-400 transition-all"
                   href="https://github.com/jonathanleao19" target="_blank"
@@ -439,11 +366,8 @@ function Sobre() {
                 >
                   <LinkedinLogoIcon size={20} weight="fill" />
                 </a>
-
               </div>
-
             </div>
-
 
             {/* ================= LUIZA ================= */}
             <div className="group flex flex-col items-center text-center
@@ -465,19 +389,14 @@ function Sobre() {
                   alt="Luiza"
                   className="w-full h-full object-cover"
                 />
-
               </div>
-
               <h3 className="text-white font-semibold text-base mt-5">
                 Luiza
               </h3>
-
               <p className="text-blue-400 text-sm mt-1">
                 Fullstack Developer
               </p>
-
               <div className="flex gap-4 mt-5">
-
                 <a
                   className="text-slate-500 hover:text-blue-400 transition-all"
                   href="https://github.com/luizavpg-bit" target="_blank"
@@ -495,11 +414,8 @@ function Sobre() {
                 >
                   <LinkedinLogoIcon size={20} weight="fill" />
                 </a>
-
               </div>
-
             </div>
-
 
             {/* ================= PATRICK ================= */}
             <div className="group flex flex-col items-center text-center
@@ -521,19 +437,14 @@ function Sobre() {
                   alt="Patrick"
                   className="w-full h-full object-cover"
                 />
-
               </div>
-
               <h3 className="text-white font-semibold text-base mt-5">
                 Patrick
               </h3>
-
               <p className="text-blue-400 text-sm mt-1">
                 Fullstack Developer
               </p>
-
               <div className="flex gap-4 mt-5">
-
                 <a
                   className="text-slate-500 hover:text-blue-400 transition-all"
                  target="_blank" href="https://github.com/phcarneiro9" 
@@ -551,17 +462,11 @@ function Sobre() {
                 >
                   <LinkedinLogoIcon size={20} weight="fill" />
                 </a>
-
               </div>
-
             </div>
-
           </div>
-
         </div>
-
       </section>
-
     </main>
   );
 }

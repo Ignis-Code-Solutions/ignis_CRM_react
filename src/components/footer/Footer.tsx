@@ -14,7 +14,6 @@ export default function Footer() {
         </div>
         
         <nav className="flex gap-4">
-          
           <a
             className="text-blue-950 font-bold hover:text-blue-800 transition-all"
             href="#"

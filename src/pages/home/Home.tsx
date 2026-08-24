@@ -8,7 +8,6 @@ export default function Home() {
       {/* Seção Hero */}
       <section className=" flex flex-col w-full bg-[#0b1426]  items-center">
         <div className="max-w-7xl mx-auto px-4 md:px-8 py-20 md:py-28">
-
           <div className="flex flex-col md:flex-row items-center justify-between gap-14 md:gap-20">
 
             {/* Conteúdo */}
@@ -67,11 +66,8 @@ export default function Home() {
                   <span className="text-green-400 text-base">✓</span>
                   Feito para PMEs
                 </span>
-
               </div>
-
             </div>
-
 
             {/* Gráfico / Imagem */}
             <div className="flex-1 w-full">
@@ -83,26 +79,17 @@ export default function Home() {
                   alt="Painel de gestão do Ignis Core"
                   src="https://ik.imagekit.io/dy8ytykq9/Gemini_Generated_Image_7gw8ny7gw8ny7gw8.jfif"
                 />
-
               </div>
-
             </div>
-
           </div>
-
         </div>
       </section>
 
-
       {/* Cards */}
       <section className="w-full bg-[#080f1d] border-t border-slate-800">
-
         <div className="max-w-7xl mx-auto px-4 md:px-8 py-16 md:py-20">
-
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-
             <div className="group rounded-2xl border border-slate-800 bg-[#080f1d] p-6 transition-all duration-300 hover:-translate-y-1 hover:border-blue-500/40 hover:shadow-lg hover:shadow-blue-500/10">
-
               <div className="w-10 h-10 rounded-xl bg-green-500/10 flex items-center justify-center mb-5">
                 <UserGearIcon
                   size={22}
@@ -110,20 +97,15 @@ export default function Home() {
                   className="text-red-500"
                 />
               </div>
-
               <h3 className="text-white font-semibold mb-2">
                 Gestão de Clientes
               </h3>
-
               <p className="text-sm text-slate-400 leading-6">
                 Cadastros completos, histórico de interações e segmentação
                 simples.
               </p>
-
             </div>
-
             <div className="group min-h-45 rounded-2xl border border-slate-800 bg-[#080f1d] p-6 transition-all duration-300 hover:-translate-y-1 hover:border-blue-500/40 hover:shadow-lg hover:shadow-blue-500/10">
-
               <div className="w-10 h-10 rounded-xl bg-green-500/10 flex items-center justify-center mb-5">
                 <ChartBarIcon
                   size={22}
@@ -131,20 +113,15 @@ export default function Home() {
                   className="text-green-500"
                 />
               </div>
-
               <h3 className="text-white font-semibold mb-2">
                 Painéis em Tempo Real
               </h3>
-
               <p className="text-sm text-slate-400 leading-6">
                 Acompanhe métricas de vendas, conversão e retenção num só
                 lugar.
               </p>
-
             </div>
-
             <div className="group min-h-45 rounded-2xl border border-slate-800 bg-[#080f1d] p-6 transition-all duration-300 hover:-translate-y-1 hover:border-blue-500/40 hover:shadow-lg hover:shadow-blue-500/10">
-
               <div className="w-10 h-10 rounded-xl bg-yellow-500/10 flex items-center justify-center mb-5">
                 <ShieldCheckIcon
                   size={22}
@@ -152,20 +129,15 @@ export default function Home() {
                   className="text-yellow-500"
                 />
               </div>
-
               <h3 className="text-white font-semibold mb-2">
                 Segurança e Controle
               </h3>
-
               <p className="text-sm text-slate-400 leading-6">
                 Dados protegidos com controle de acesso e auditoria
                 integrada.
               </p>
-
             </div>
-
             <div className="group min-h-45 rounded-2xl border border-slate-800 bg-[#080f1d] p-6 transition-all duration-300 hover:-translate-y-1 hover:border-blue-500/40 hover:shadow-lg hover:shadow-blue-500/10">
-
               <div className="w-10 h-10 rounded-xl bg-blue-500/10 flex items-center justify-center mb-5">
                 <LightningIcon
                   size={22}
@@ -173,32 +145,26 @@ export default function Home() {
                   className="text-blue-500"
                 />
               </div>
-
               <h3 className="text-white font-semibold mb-2">
                 Automação Simples
               </h3>
-
               <p className="text-sm text-slate-400 leading-6">
                 Tarefas repetitivas automatizadas para sua equipe vender
                 mais.
               </p>
-
             </div>
           </div>
         </div>
 
         {/* Título */}
 <div className="text-center mb-10 max-w-2xl mx-auto">
-
   <span className="inline-flex items-center gap-2 border border-blue-500/40 bg-blue-500/5 text-blue-400 px-4 py-1 rounded-full text-xs font-medium">
     <ChatCircleTextIcon size={14} />
     CONTATO
   </span>
-
   <h2 className="text-3xl md:text-4xl font-bold text-white mt-5">
     Fale Conosco
   </h2>
-
   <p className="text-slate-400 text-sm md:text-base mt-3 leading-relaxed">
     Tem uma dúvida, sugestão ou quer saber mais sobre o Ignis Core?
     Preencha o formulário abaixo e nossa equipe responderá em breve.
@@ -208,7 +174,6 @@ export default function Home() {
 {/* Formulário */}
 <div className="w-full max-w-7xl mx-auto px-4 md:px-8">
   <div className="w-full bg-[#111c30] border border-slate-700/60 rounded-2xl p-6 md:p-8 shadow-lg">
-
     <form className="flex flex-col gap-5">
 
       {/* Nome */}
@@ -222,7 +187,6 @@ export default function Home() {
             size={18}
             className="absolute left-3 top-1/2 -translate-y-1/2 text-slate-500"
           />
-
           <input
             type="text"
             placeholder="Seu nome completo"
@@ -242,7 +206,6 @@ export default function Home() {
             size={18}
             className="absolute left-3 top-1/2 -translate-y-1/2 text-slate-500"
           />
-
           <input
             type="email"
             placeholder="seu@email.com"
@@ -262,7 +225,6 @@ export default function Home() {
             size={18}
             className="absolute left-3 top-1/2 -translate-y-1/2 text-slate-500"
           />
-
           <input
             type="text"
             placeholder="Qual o motivo do contato?"
@@ -282,7 +244,6 @@ export default function Home() {
             size={18}
             className="absolute left-3 top-3 text-slate-500"
           />
-
           <textarea
             placeholder="Escreva sua mensagem aqui..."
             rows={5}
